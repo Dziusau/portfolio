@@ -1,0 +1,38 @@
+{
+  "assets/projects/himmelsdorf-scenarios/hero.png": "https://static.wixstatic.com/media/438747_c63e1337f00d47ada965dcb28bdf739e~mv2.png",
+  "assets/projects/himmelsdorf-scenarios/thumbnail.jpg": "https://static.wixstatic.com/media/438747_c63e1337f00d47ada965dcb28bdf739e~mv2.png/v1/fill/w_1480,h_836,q_90,enc_avif,quality_auto/438747_c63e1337f00d47ada965dcb28bdf739e~mv2.jpg",
+  "assets/projects/himmelsdorf-scenarios/zeppelin-map.png": "https://static.wixstatic.com/media/438747_43a6c66491e748aebbd68784efd72073~mv2.png",
+  "assets/projects/himmelsdorf-scenarios/zeppelin-01.png": "https://static.wixstatic.com/media/438747_a09f66e1cccd4426b815f320b0f8c664~mv2.png",
+  "assets/projects/himmelsdorf-scenarios/zeppelin-02.png": "https://static.wixstatic.com/media/438747_6e1cead66a06494cb047a0449340ba14~mv2.png",
+  "assets/projects/himmelsdorf-scenarios/zeppelin-03.png": "https://static.wixstatic.com/media/438747_7f1220a37e2d40cea841d08e00557ad0~mv2.png",
+  "assets/projects/himmelsdorf-scenarios/train-map.png": "https://static.wixstatic.com/media/438747_a89f46d095c34b4292ee6e949032366b~mv2.png",
+  "assets/projects/himmelsdorf-scenarios/train-01.png": "https://static.wixstatic.com/media/438747_d7a60ef33c944593a8caf1018ac1fdab~mv2.png",
+  "assets/projects/himmelsdorf-scenarios/train-02.png": "https://static.wixstatic.com/media/438747_6ada33304e00411587a49f41f9b7ec8b~mv2.png",
+  "assets/projects/himmelsdorf-scenarios/train-03.png": "https://static.wixstatic.com/media/438747_e9dc78654f2a4793af01e133a6f2f152~mv2.png",
+  "assets/projects/himmelsdorf-scenarios/train-04.png": "https://static.wixstatic.com/media/438747_c9aaea6eff2b471fabe02e2307015f2a~mv2.png",
+
+  "assets/projects/siegfried-line-scenarios/hero.png": "https://static.wixstatic.com/media/438747_672acb28dd63403f803bb7e1de4e8b03~mv2.png",
+  "assets/projects/siegfried-line-scenarios/thumbnail.jpg": "https://static.wixstatic.com/media/438747_672acb28dd63403f803bb7e1de4e8b03~mv2.png/v1/fill/w_1480,h_836,q_90,enc_avif,quality_auto/438747_672acb28dd63403f803bb7e1de4e8b03~mv2.jpg",
+  "assets/projects/siegfried-line-scenarios/city-map.png": "https://static.wixstatic.com/media/438747_8ca7499847684a3eb1beff2d3ace9356~mv2.png",
+  "assets/projects/siegfried-line-scenarios/city-01.png": "https://static.wixstatic.com/media/438747_bb6bdbd1a5904fc29ea60b1ac2c1f8eb~mv2.png",
+  "assets/projects/siegfried-line-scenarios/city-02.png": "https://static.wixstatic.com/media/438747_99541f6c2e714e7cb365efdbf117b93c~mv2.png",
+  "assets/projects/siegfried-line-scenarios/city-03.png": "https://static.wixstatic.com/media/438747_56541be799934c74a3eec17f366ae163~mv2.png",
+  "assets/projects/siegfried-line-scenarios/city-04.png": "https://static.wixstatic.com/media/438747_585e6a0138834fdbae4141fb18e47e33~mv2.png",
+  "assets/projects/siegfried-line-scenarios/city-05.png": "https://static.wixstatic.com/media/438747_ca9cb7dc11594991ba0be27d6fdc29c1~mv2.png",
+  "assets/projects/siegfried-line-scenarios/bomber-map.png": "https://static.wixstatic.com/media/438747_91ee1e2f09904c0689ee001133bc719e~mv2.png",
+  "assets/projects/siegfried-line-scenarios/bomber-01.png": "https://static.wixstatic.com/media/438747_bba94f43cd1a49278b93ba5bb59f8ff7~mv2.png",
+  "assets/projects/siegfried-line-scenarios/bomber-02.png": "https://static.wixstatic.com/media/438747_10cb5f34536b4e44a3e362419bb1606c~mv2.png",
+  "assets/projects/siegfried-line-scenarios/bomber-03.png": "https://static.wixstatic.com/media/438747_02161063496d48d984c64917158d61b5~mv2.png",
+
+  "assets/projects/airfield-map/hero.png": "https://static.wixstatic.com/media/438747_34b8b1b4fd6d427d8936e8a6f67e307a~mv2.png",
+  "assets/projects/airfield-map/thumbnail.jpg": "https://static.wixstatic.com/media/438747_34b8b1b4fd6d427d8936e8a6f67e307a~mv2.png/v1/fill/w_1480,h_836,q_90,enc_avif,quality_auto/438747_34b8b1b4fd6d427d8936e8a6f67e307a~mv2.jpg",
+  "assets/projects/airfield-map/zone-overview.png": "https://static.wixstatic.com/media/438747_c0b784c5d25b44ae93511a75c15cc7be~mv2.png",
+  "assets/projects/airfield-map/overview-01.png": "https://static.wixstatic.com/media/438747_51bd99bfbe5847ada9581f510f59b488~mv2.png",
+
+  "assets/projects/paris-bridge-bombardment/hero.jpg": "https://static.wixstatic.com/media/438747_654e8127fb274d279c8af9b995ab4ea7~mv2.jpg",
+  "assets/projects/paris-bridge-bombardment/thumbnail.jpg": "https://static.wixstatic.com/media/438747_654e8127fb274d279c8af9b995ab4ea7~mv2.jpg/v1/fill/w_1480,h_836,q_90,enc_avif,quality_auto/438747_654e8127fb274d279c8af9b995ab4ea7~mv2.jpg",
+  "assets/projects/paris-bridge-bombardment/bridge-map.png": "https://static.wixstatic.com/media/438747_42ba532b5ae542628028104d532f79d0~mv2.png",
+  "assets/projects/paris-bridge-bombardment/bridge-01.png": "https://static.wixstatic.com/media/438747_72d71846ec2b4851804422be5cc46db6~mv2.png",
+  "assets/projects/paris-bridge-bombardment/bridge-02.png": "https://static.wixstatic.com/media/438747_f38342bde6bb456187628da3a768665f~mv2.png",
+  "assets/projects/paris-bridge-bombardment/bridge-03.png": "https://static.wixstatic.com/media/438747_207cfce9b8ba432aa551a0d98e5b28bf~mv2.png"
+}

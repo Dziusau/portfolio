@@ -16,7 +16,7 @@ export const projects: Project[] = [
       year: 2023, // TODO: confirm with author
       role: 'Scenario Design',
     },
-    hero: { type: 'image', src: '/assets/projects/himmelsdorf-scenarios/hero.jpg' },
+    hero: { type: 'image', src: '/assets/projects/himmelsdorf-scenarios/hero.png' },
     thumbnail: '/assets/projects/himmelsdorf-scenarios/thumbnail.jpg',
     sections: [
       {
@@ -32,8 +32,9 @@ export const projects: Project[] = [
           'overall gameplay experience during battles on this map.',
         map: '/assets/projects/himmelsdorf-scenarios/zeppelin-map.png',
         media: [
-          '/assets/projects/himmelsdorf-scenarios/zeppelin-01.jpg',
-          '/assets/projects/himmelsdorf-scenarios/zeppelin-02.jpg',
+          '/assets/projects/himmelsdorf-scenarios/zeppelin-01.png',
+          '/assets/projects/himmelsdorf-scenarios/zeppelin-02.png',
+          '/assets/projects/himmelsdorf-scenarios/zeppelin-03.png',
         ],
       },
       {
@@ -44,10 +45,6 @@ export const projects: Project[] = [
           'The scenario underwent a full development cycle, starting from a basic blockout using legacy models and ' +
           'concrete blocks to the final placement of high-quality assets. Each stage was refined through multiple ' +
           'iterations and internal playtests to ensure optimal flow and balance.',
-        beforeAfter: {
-          before: '/assets/projects/himmelsdorf-scenarios/zeppelin-blockout.jpg',
-          after: '/assets/projects/himmelsdorf-scenarios/zeppelin-polished.jpg',
-        },
       },
       {
         kind: 'logic',
@@ -71,8 +68,10 @@ export const projects: Project[] = [
           'to derail and overturn along the entire length of the map rails.',
         map: '/assets/projects/himmelsdorf-scenarios/train-map.png',
         media: [
-          '/assets/projects/himmelsdorf-scenarios/train-01.jpg',
-          '/assets/projects/himmelsdorf-scenarios/train-02.jpg',
+          '/assets/projects/himmelsdorf-scenarios/train-01.png',
+          '/assets/projects/himmelsdorf-scenarios/train-02.png',
+          '/assets/projects/himmelsdorf-scenarios/train-03.png',
+          '/assets/projects/himmelsdorf-scenarios/train-04.png',
         ],
       },
       {
@@ -96,7 +95,7 @@ export const projects: Project[] = [
           'significantly diversifying the gameplay in this lane.',
       },
     ],
-    closingVideo: undefined, // TODO: paste actual YouTube embed URL from /portfolio/1
+    // TODO: paste actual YouTube embed URL from /portfolio/1
   },
 
   {
@@ -113,7 +112,7 @@ export const projects: Project[] = [
       year: 2023, // TODO: confirm with author
       role: 'Scenario Design',
     },
-    hero: { type: 'image', src: '/assets/projects/siegfried-line-scenarios/hero.jpg' },
+    hero: { type: 'image', src: '/assets/projects/siegfried-line-scenarios/hero.png' },
     thumbnail: '/assets/projects/siegfried-line-scenarios/thumbnail.jpg',
     sections: [
       {
@@ -129,8 +128,11 @@ export const projects: Project[] = [
           'of animators and VFX artists on the scenario development pipeline.',
         map: '/assets/projects/siegfried-line-scenarios/city-map.png',
         media: [
-          '/assets/projects/siegfried-line-scenarios/city-01.jpg',
-          '/assets/projects/siegfried-line-scenarios/city-02.jpg',
+          '/assets/projects/siegfried-line-scenarios/city-01.png',
+          '/assets/projects/siegfried-line-scenarios/city-02.png',
+          '/assets/projects/siegfried-line-scenarios/city-03.png',
+          '/assets/projects/siegfried-line-scenarios/city-04.png',
+          '/assets/projects/siegfried-line-scenarios/city-05.png',
         ],
       },
       {
@@ -163,7 +165,11 @@ export const projects: Project[] = [
           'seamlessly into the local gameplay. It creates situational cover and blocks long-range sightlines, facilitating safer ' +
           'movement through the area.',
         map: '/assets/projects/siegfried-line-scenarios/bomber-map.png',
-        media: ['/assets/projects/siegfried-line-scenarios/bomber-01.jpg'],
+        media: [
+          '/assets/projects/siegfried-line-scenarios/bomber-01.png',
+          '/assets/projects/siegfried-line-scenarios/bomber-02.png',
+          '/assets/projects/siegfried-line-scenarios/bomber-03.png',
+        ],
       },
       {
         kind: 'iteration',
@@ -185,7 +191,7 @@ export const projects: Project[] = [
           'within the sector and allows for much safer movement and rotation.',
       },
     ],
-    closingVideo: undefined, // TODO: paste actual YouTube embed URL from /portfolio/2
+    // TODO: paste actual YouTube embed URL from /portfolio/2
   },
 
   {
@@ -203,7 +209,7 @@ export const projects: Project[] = [
       year: 2024, // TODO: confirm with author — update 1.28.1
       role: 'Level Design',
     },
-    hero: { type: 'image', src: '/assets/projects/airfield-map/hero.jpg' },
+    hero: { type: 'image', src: '/assets/projects/airfield-map/hero.png' },
     thumbnail: '/assets/projects/airfield-map/thumbnail.jpg',
     sections: [
       {
@@ -216,6 +222,7 @@ export const projects: Project[] = [
           'I implemented a sub-sector on top of the cave, where positions are spaced further apart, resulting in a more methodical ' +
           'and measured pace.',
         map: '/assets/projects/airfield-map/zone-overview.png',
+        media: ['/assets/projects/airfield-map/overview-01.png'],
       },
       {
         kind: 'zone',
@@ -255,7 +262,7 @@ export const projects: Project[] = [
           'their favor even if they were initially at a disadvantage.',
       },
     ],
-    closingVideo: undefined, // TODO: paste actual YouTube embed URL from /portfolio/3
+    // TODO: paste actual YouTube embed URL from /portfolio/3
   },
 
   {
@@ -285,7 +292,11 @@ export const projects: Project[] = [
           'developed the geometry starting from the graybox stage for internal testing, and subsequently oversaw the 3D, level art, and ' +
           'animation teams to ensure a flawless release with no technical or design issues.',
         map: '/assets/projects/paris-bridge-bombardment/bridge-map.png',
-        media: ['/assets/projects/paris-bridge-bombardment/bridge-01.jpg'],
+        media: [
+          '/assets/projects/paris-bridge-bombardment/bridge-01.png',
+          '/assets/projects/paris-bridge-bombardment/bridge-02.png',
+          '/assets/projects/paris-bridge-bombardment/bridge-03.png',
+        ],
       },
       {
         kind: 'logic',
@@ -299,6 +310,6 @@ export const projects: Project[] = [
           'inaccessible routes to the upper roadway.',
       },
     ],
-    closingVideo: undefined, // TODO: paste actual YouTube embed URL from /portfolio/4
+    // TODO: paste actual YouTube embed URL from /portfolio/4
   },
 ];
