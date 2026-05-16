@@ -312,4 +312,123 @@ export const projects: Project[] = [
     ],
     // TODO: paste actual YouTube embed URL from /portfolio/4
   },
+
+  {
+    slug: 'cliff-lighthouse-crash',
+    number: '05',
+    title: 'Lighthouse crash scenario',
+    tagline: 'Random Events on Cliff — the lighthouse falls.',
+    intro:
+      'As part of the Random Events feature, I implemented the destruction of the iconic lighthouse on the Cliff map. In this ' +
+      'scenario, a bomber attempting to evade a pursuit loses control and strikes the lighthouse with its wing. The impact causes ' +
+      'a section of the structure to collapse, leading the lighthouse to tilt and fall. The aircraft itself eventually crashes on ' +
+      'the opposite side of the map.',
+    meta: {
+      game: 'World of Tanks',
+      studio: 'Wargaming',
+      year: 2024, // TODO: confirm with author
+      role: 'Scenario Design',
+    },
+    hero: { type: 'image', src: '/assets/projects/cliff-lighthouse-crash/hero.png' },
+    thumbnail: '/assets/projects/cliff-lighthouse-crash/thumbnail.jpg',
+    sections: [
+      {
+        kind: 'scenario',
+        label: 'Scenario',
+        title: 'Lighthouse crash',
+        body:
+          'The bomber clips the lighthouse mid-flight; a section of the structure collapses and the tower tilts and falls onto ' +
+          'the mountain slope below. The aircraft itself eventually crashes on the opposite side of the map.',
+        map: '/assets/projects/cliff-lighthouse-crash/lighthouse-map.png',
+        media: [
+          '/assets/projects/cliff-lighthouse-crash/lighthouse-01.png',
+          '/assets/projects/cliff-lighthouse-crash/lighthouse-02.png',
+          '/assets/projects/cliff-lighthouse-crash/lighthouse-03.png',
+        ],
+      },
+      {
+        kind: 'iteration',
+        label: 'Layout',
+        title: 'Occasionally, we need to adjust the original map layout',
+        body:
+          "To maximize the gameplay impact, I needed the lighthouse debris to land specifically on the mountain slope. Balancing " +
+          "this with the animation team's requirement for realistic destruction physics, I slightly shifted the lighthouse's " +
+          'original position toward the edge of the cliff.',
+      },
+      {
+        kind: 'logic',
+        label: 'Logic',
+        title: 'Logic behind',
+        body:
+          'The map features a dominant high ground — the hill where the lighthouse stands. Before its destruction, capturing this ' +
+          'height is extremely difficult, as the approach is exposed to fire from multiple enemy positions. Typically, only Light ' +
+          'Tanks can contest this area during the early-game deployment. After the lighthouse is destroyed, its debris obstructs one ' +
+          'of the primary firing lanes covering the ascent. This makes reaching the hilltop much easier, even during the mid-game. ' +
+          'Additionally, the wreckage on the slope creates new tactical positions, allowing players to establish a foothold and ' +
+          "engage the enemy effectively. Consequently, the hill becomes accessible to almost any vehicle class mid-match. However, " +
+          "since the event's timing and activation probability are randomized, this remains a situational opportunity rather than an " +
+          "overpowered strategy, preserving the map's core gameplay.",
+      },
+    ],
+    // TODO: paste actual YouTube embed URL from /portfolio/5
+  },
+
+  {
+    slug: 'highway-train-derailment',
+    number: '06',
+    title: 'Highway scenario',
+    tagline: 'Train derailment onto the city streets.',
+    intro:
+      'One of the final scenarios developed for the Random Events feature. A train pursued by aircraft comes under fire; the ' +
+      'resulting bombardment destroys the tracks, causing the train to derail and crash directly onto the city streets. This ' +
+      'event introduces fresh tactical cover and obstructs long-range sightlines, making the urban combat more secure and engaging.',
+    meta: {
+      game: 'World of Tanks',
+      studio: 'Wargaming',
+      year: 2024, // TODO: confirm with author
+      role: 'Scenario Design',
+    },
+    hero: { type: 'image', src: '/assets/projects/highway-train-derailment/hero.png' },
+    thumbnail: '/assets/projects/highway-train-derailment/thumbnail.jpg',
+    sections: [
+      {
+        kind: 'scenario',
+        label: 'Scenario',
+        title: 'Train derailment',
+        body:
+          'A train pursued by aircraft comes under fire; the bombardment destroys the tracks, causing the train to derail and crash ' +
+          'directly onto the city streets. The wreckage introduces fresh tactical cover and obstructs long-range sightlines, making ' +
+          'the urban combat more secure and engaging.',
+        map: '/assets/projects/highway-train-derailment/train-map.png',
+        media: [
+          '/assets/projects/highway-train-derailment/train-01.png',
+          '/assets/projects/highway-train-derailment/train-02.png',
+          '/assets/projects/highway-train-derailment/train-03.png',
+        ],
+      },
+      {
+        kind: 'iteration',
+        label: 'Process',
+        title: 'Trains are always difficult',
+        body:
+          'While every individual wagon is a potential piece of gameplay cover, developing a scenario involving an entire train ' +
+          'derailment is a massive technical challenge. Animating each car, analyzing the server-side performance impact, and preventing ' +
+          'potential network desyncs — all while assembling and testing the scenario within complex prefab structures — represents only ' +
+          'a fraction of the work required to bring such an event to life.',
+      },
+      {
+        kind: 'logic',
+        label: 'Logic',
+        title: 'Logic behind',
+        body:
+          'In the urban sector of the map, several city blocks are separated by a railway. Typically, playing around the corners of ' +
+          'the buildings here is inconvenient because the main positions are angled diagonally from one another, and the blocks are ' +
+          'oriented perpendicularly. Furthermore, long-range cross-fire from support positions outside the city limits active advancement ' +
+          'through the urban area. The train wreckage fits this area perfectly. We established new positions at varying engagement ' +
+          'distances, making the gameplay in this sector more intuitive and dynamic. The fallen wagons successfully blocked long-range ' +
+          'sightlines, creating a much safer environment for heavy tanks to battle.',
+      },
+    ],
+    // TODO: paste actual YouTube embed URL from /portfolio/6
+  },
 ];
