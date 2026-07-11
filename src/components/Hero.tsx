@@ -5,7 +5,7 @@ export default function Hero() {
         Aleksandr Dyusov
       </h1>
       <p className="mt-4 text-sm text-muted">
-        <span className="font-mono text-white tracking-wider2 uppercase">Level &amp; Scenario Designer</span>
+        <span className="font-mono text-white tracking-wider2 uppercase">Level &amp; Game Designer</span>
         <span className="px-2">·</span>
         World of Tanks, Wargaming
       </p>
