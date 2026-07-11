@@ -1,14 +1,16 @@
+import ZoomableImage from './ZoomableImage';
+
 type Props = { before: string; after: string };
 
 export default function BeforeAfter({ before, after }: Props) {
   return (
     <div className="grid grid-cols-2 gap-2 mt-4">
       <figure>
-        <img src={before} alt="Before" loading="lazy" className="w-full aspect-[16/10] object-cover rounded-sm" />
+        <ZoomableImage src={before} alt="Before" className="w-full aspect-[16/10] object-cover rounded-sm" />
         <figcaption className="font-mono text-[10px] uppercase tracking-wider2 text-quiet mt-2">Before</figcaption>
       </figure>
       <figure>
-        <img src={after} alt="After" loading="lazy" className="w-full aspect-[16/10] object-cover rounded-sm" />
+        <ZoomableImage src={after} alt="After" className="w-full aspect-[16/10] object-cover rounded-sm" />
         <figcaption className="font-mono text-[10px] uppercase tracking-wider2 text-quiet mt-2">After</figcaption>
       </figure>
     </div>

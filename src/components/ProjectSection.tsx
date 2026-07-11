@@ -1,5 +1,6 @@
 import type { ProjectSection as S } from '../data/types';
 import BeforeAfter from './BeforeAfter';
+import ZoomableImage from './ZoomableImage';
 
 type Props = { section: S };
 
@@ -19,10 +20,9 @@ export default function ProjectSection({ section }: Props) {
 
         {map && (
           <figure className="mt-6">
-            <img
+            <ZoomableImage
               src={map}
               alt={`Top-down map — ${title}`}
-              loading="lazy"
               className="w-full max-w-2xl aspect-square object-contain rounded-sm bg-ink-2"
             />
           </figure>
@@ -36,11 +36,10 @@ export default function ProjectSection({ section }: Props) {
             }
           >
             {media.map((src, i) => (
-              <img
+              <ZoomableImage
                 key={src}
                 src={src}
                 alt={`${title} — image ${i + 1}`}
-                loading="lazy"
                 className="w-full aspect-[16/10] object-cover rounded-sm bg-ink-2"
               />
             ))}
