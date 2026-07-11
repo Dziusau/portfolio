@@ -237,6 +237,14 @@ export const projects: Project[] = [
     thumbnail: '/assets/projects/airfield-map/thumbnail.jpg',
     sections: [
       {
+        kind: 'logic',
+        label: 'Logic',
+        title: 'Logic behind',
+        body: 'test',
+        map: '/assets/projects/airfield-map/zone-overview.png',
+        media: ['/assets/projects/airfield-map/overview-01.png'],
+      },
+      {
         kind: 'zone',
         label: 'Zone 01',
         title: 'The Cave',
@@ -245,9 +253,7 @@ export const projects: Project[] = [
           'slow-moving vehicles can fight in relative isolation, shielded from outside interference. To add gameplay variety, ' +
           'I implemented a sub-sector on top of the cave, where positions are spaced further apart, resulting in a more methodical ' +
           'and measured pace.',
-        map: '/assets/projects/airfield-map/zone-overview.png',
         media: [
-          '/assets/projects/airfield-map/overview-01.png',
           '/assets/projects/airfield-map/cave-01.png',
           '/assets/projects/airfield-map/cave-02.png',
         ],
