@@ -9,15 +9,17 @@ export const about: About = {
     'level art, animation and VFX teams toward release. I led integration of the ' +
     'Random Events feature across multiple maps (Himmelsdorf, Siegfried Line, Paris) ' +
     'and rebuilt Airfield from the ground up.',
-  // TODO: confirm with author
   tools: [
     'Internal Wargaming level editor',
+    'Unity',
+    'Unreal Engine',
+    'Level Sequencer',
     'Maya',
+    'Blender',
     'Photoshop',
-    'Notion',
-    'Playtest direction',
-    'Design documentation',
-    'Cross-team coordination',
+    'Confluence',
+    'Miro',
+    'Jira',
   ],
   cvUrl: '/aleksandr-dyusov-cv.pdf',
   contacts: {
