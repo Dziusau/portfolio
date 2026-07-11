@@ -5,7 +5,7 @@ type Props = { project: Project };
 
 export default function ProjectTile({ project }: Props) {
   const { slug, number, title, thumbnail, meta } = project;
-  const metaLine = `${meta.game} · ${meta.year} · ${meta.role}`;
+  const metaLine = meta.game;
   return (
     <Link
       to={`/projects/${slug}`}
