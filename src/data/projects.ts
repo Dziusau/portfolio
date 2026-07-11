@@ -107,7 +107,7 @@ export const projects: Project[] = [
         ],
       },
     ],
-    // TODO: paste actual YouTube embed URL from /portfolio/1
+    closingVideo: 'https://www.youtube.com/embed/aKRCXbflrQE',
   },
 
   {
@@ -215,7 +215,7 @@ export const projects: Project[] = [
         ],
       },
     ],
-    // TODO: paste actual YouTube embed URL from /portfolio/2
+    closingVideo: 'https://www.youtube.com/embed/hhL41xOG7BM',
   },
 
   {
@@ -312,7 +312,7 @@ export const projects: Project[] = [
         ],
       },
     ],
-    // TODO: paste actual YouTube embed URL from /portfolio/3
+    closingVideo: 'https://www.youtube.com/embed/kOj0usIhBp0',
   },
 
   {
@@ -372,7 +372,7 @@ export const projects: Project[] = [
         ],
       },
     ],
-    // TODO: paste actual YouTube embed URL from /portfolio/4
+    closingVideo: 'https://www.youtube.com/embed/XeIdGRWMaZ8',
   },
 
   {
@@ -440,7 +440,7 @@ export const projects: Project[] = [
         ],
       },
     ],
-    // TODO: paste actual YouTube embed URL from /portfolio/5
+    closingVideo: 'https://www.youtube.com/embed/QZo2fxH5uh0',
   },
 
   {
@@ -502,7 +502,7 @@ export const projects: Project[] = [
         ],
       },
     ],
-    // TODO: paste actual YouTube embed URL from /portfolio/6
+    closingVideo: 'https://www.youtube.com/embed/ohfrzAV_ycM',
   },
 
   {
