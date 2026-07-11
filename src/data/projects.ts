@@ -111,8 +111,209 @@ export const projects: Project[] = [
   },
 
   {
-    slug: 'siegfried-line-scenarios',
+    slug: 'airfield-map',
     number: '02',
+    title: 'Airfield map',
+    tagline: 'Complete rebuild of the Airfield map.',
+    intro:
+      'I spearheaded a complete overhaul of the Airfield map, essentially rebuilding it from scratch. Recognizing that previous ' +
+      'minor adjustments had failed to improve player satisfaction, I took the initiative to design an entirely new map layout ' +
+      'while preserving the established African desert coast setting.',
+    meta: {
+      game: 'World of Tanks',
+      studio: 'Wargaming',
+      year: 2024, // TODO: confirm with author — update 1.28.1
+      role: 'Level Design',
+    },
+    hero: { type: 'image', src: '/assets/projects/airfield-map/hero.png' },
+    thumbnail: '/assets/projects/airfield-map/thumbnail.jpg',
+    sections: [
+      {
+        kind: 'logic',
+        label: 'Logic',
+        title: 'Logic behind',
+        body: 'test',
+        map: '/assets/projects/airfield-map/zone-overview.png',
+        media: ['/assets/projects/airfield-map/overview-01.png'],
+      },
+      {
+        kind: 'zone',
+        label: 'Zone 01',
+        title: 'The Cave',
+        body:
+          'The Cave is a dedicated engagement zone for heavy armor. Within its walls and under its natural roof, heavy, ' +
+          'slow-moving vehicles can fight in relative isolation, shielded from outside interference. To add gameplay variety, ' +
+          'I implemented a sub-sector on top of the cave, where positions are spaced further apart, resulting in a more methodical ' +
+          'and measured pace.',
+        media: [
+          '/assets/projects/airfield-map/cave-01.png',
+          '/assets/projects/airfield-map/cave-02.png',
+        ],
+      },
+      {
+        kind: 'zone',
+        label: 'Zone 02',
+        title: 'The Dunes',
+        body:
+          'This type of natural terrain is rarely utilized in our game. However, dunes are exceptionally effective for facilitating ' +
+          'gameplay along the entire length of the ridge. They provide players with a sense of control and significantly diversify the ' +
+          "experience, as a viable firing position can be found anywhere along the dune's crest.",
+        media: [
+          '/assets/projects/airfield-map/dunes-01.png',
+          '/assets/projects/airfield-map/dunes-02.png',
+        ],
+      },
+      {
+        kind: 'zone',
+        label: 'Zone 03',
+        title: 'The Coastline',
+        body:
+          'Since the dunes are designed for long-range positional play, I needed to provide a high-mobility sub-sector where fast ' +
+          'vehicles could close the gap for more aggressive engagements. The coastline serves this exact purpose, offering a dedicated ' +
+          'flank for rapid maneuvers and close-quarters pressure.',
+        media: [
+          '/assets/projects/airfield-map/coastline-01.png',
+          '/assets/projects/airfield-map/coastline-02.png',
+        ],
+      },
+      {
+        kind: 'zone',
+        label: 'Zone 04',
+        title: 'The Central Oasis & Bush Line',
+        body:
+          'The Central Oasis serves as the primary link between the dunes. Here, Light Tanks and scouts can maximize their view range ' +
+          'to effectively spot enemy forces positioned across the ridgelines. The Bush Line is a situational tactical element that allows ' +
+          "players to stealthily infiltrate the enemy's rear under specific conditions. However, it's a high-risk maneuver: if you are " +
+          'detected, there is virtually no cover to escape.',
+        media: [
+          '/assets/projects/airfield-map/oasis-01.png',
+          '/assets/projects/airfield-map/oasis-02.png',
+        ],
+      },
+      {
+        kind: 'zone',
+        label: 'Zone 05',
+        title: 'Holding Positions',
+        body:
+          'No map is complete without these. The presence of second-line defensive positions with oversight of key map areas allows for a ' +
+          "controlled deceleration of the battle's pace. This creates opportunities for a comeback, enabling a team to flip the momentum in " +
+          'their favor even if they were initially at a disadvantage.',
+        media: [
+          '/assets/projects/airfield-map/holding-01.png',
+          '/assets/projects/airfield-map/holding-02.png',
+        ],
+      },
+    ],
+    closingVideo: 'https://www.youtube.com/embed/kOj0usIhBp0',
+  },
+
+  {
+    slug: 'brawl-school-neon-dash',
+    number: '03',
+    title: 'Brawl school',
+    tagline: 'Neon Dash — a battle racing mode with moving obstacles.',
+    intro:
+      'Neon Dash is a limited-time battle racing mode with moving obstacles. It was a complete genre shift for World ' +
+      'of Tanks, turning a tactical vehicle shooter into an arcade racer.',
+    meta: {
+      game: 'World of Tanks',
+      studio: 'Wargaming',
+      year: 2026, // TODO: confirm with author
+      role: 'Level Design',
+    },
+    hero: { type: 'image', src: '/assets/projects/brawl-school-neon-dash/hero.png' },
+    thumbnail: '/assets/projects/brawl-school-neon-dash/thumbnail.jpg',
+    sections: [
+      {
+        kind: 'zone',
+        label: 'Focus',
+        title: 'My work on this map',
+        body:
+          'Track Layout — designed a racetrack that adapts tank physics for fast-paced gameplay.\n' +
+          "Dynamic Obstacles — integrated moving platforms and hazards to test players' timing and driving skills.\n" +
+          'PvP Interaction — structured the arena to encourage constant combat, where players use impulse charges ' +
+          'to push each other off the track.',
+        map: '/assets/projects/brawl-school-neon-dash/overview-map.jpg',
+      },
+      {
+        kind: 'zone',
+        label: 'Scheme',
+        title: 'Scheme',
+        body:
+          'My goal was to create a moderately challenging track focused on high player-to-player interaction and ' +
+          'map engagement.\n\n' +
+          'My design choices:\n' +
+          'High-Interaction Layout — narrowed lanes, reduced safe zones, and added more pits to encourage knocking ' +
+          'opponents off the track.\n' +
+          'Linear Navigation — the track is completely linear. Players see the finish line from the start, ' +
+          'preventing navigation confusion during chaotic combat.\n' +
+          'Structure — the layout is divided into 3 distinct progression zones based on this pacing logic.\n' +
+          'Pacing — alternated intense obstacle sections with brief breathing rooms. Added longer, low-risk ' +
+          'alternative routes to balance overall difficulty.',
+        map: '/assets/projects/brawl-school-neon-dash/scheme.jpg',
+      },
+      {
+        kind: 'zone',
+        label: 'Stage 1',
+        title: 'Stage 1',
+        body:
+          'Immediately after the start, players slide down onto a hazardous platform filled with pits. This section ' +
+          'serves as a low-penalty combat zone where players can jump over hazards using trampolines and ram each ' +
+          'other without frustration, thanks to a nearby respawn point.\n\n' +
+          'For a high-risk trade-off, players can attempt to bypass the entire platform by using large trampolines; ' +
+          'failing the jump results in an immediate pitfall, but success grants them a significant shortcut.',
+        media: ['/assets/projects/brawl-school-neon-dash/stage1-01.png'],
+      },
+      {
+        kind: 'zone',
+        label: 'Stage 2',
+        title: 'Stage 2',
+        body:
+          'Phase 2 features a split pathway where the right track is positioned lower than the upper-left track. ' +
+          'Since this is near the start of the race, the obstacles here remain relatively simple.\n\n' +
+          'However, due to its lower elevation, the right path serves as the most natural, intuitive continuation ' +
+          'from Stage 1, which data showed most players naturally preferred. To balance this high traffic, the ' +
+          'obstacles on the right track are intentionally more challenging, featuring lasers, whereas the upper-left ' +
+          'track offers simpler moving blocks.\n\n' +
+          'This stage concludes with the first major obstacle: the Carousel. I intentionally made its rotation ' +
+          'pattern unpredictable to slow down the leading players and pack the field back together. To prevent ' +
+          'unfair frustration, a safe zone is placed directly before this hazard, allowing players to briefly wait ' +
+          'and time the carousel approach in relative safety.',
+        media: [
+          '/assets/projects/brawl-school-neon-dash/stage2-01.png',
+          '/assets/projects/brawl-school-neon-dash/stage2-02.png',
+          '/assets/projects/brawl-school-neon-dash/stage2-03.png',
+        ],
+      },
+      {
+        kind: 'zone',
+        label: 'Stage 3',
+        title: 'Stage 3',
+        body:
+          'Stage 3 is the most challenging section of the map, featuring narrow tracks, heavily holey platforms, and ' +
+          'long-distance jumps. It serves as the primary catch-up mechanic where trailing players can overtake the ' +
+          'leaders.\n\n' +
+          'At the start of this section, a split layout offers an alternate bypass route for those wanting to avoid ' +
+          'the jumps, though this route still maintains a baseline level of hazard to ensure it remains a balanced ' +
+          'choice.\n\n' +
+          'The track concludes with a high-intensity hazard codenamed the "Washing Machine," featuring a dense ' +
+          'cluster of platforms moving in opposite directions over open pits. This final bottleneck forces intense ' +
+          'player interaction, where opponents can either cooperate to secure the finish or sabotage each other. ' +
+          'A well-timed impulse shot here can knock a rival off the platform, triggering a high-penalty respawn all ' +
+          'the way back to the start of Stage 3.',
+        media: [
+          '/assets/projects/brawl-school-neon-dash/stage3-01.png',
+          '/assets/projects/brawl-school-neon-dash/stage3-02.png',
+          '/assets/projects/brawl-school-neon-dash/stage3-03.png',
+        ],
+      },
+    ],
+    closingVideo: 'https://www.youtube.com/embed/oA9sebGUzwY',
+  },
+
+  {
+    slug: 'siegfried-line-scenarios',
+    number: '04',
     title: 'Siegfried line scenarios',
     tagline: 'City bombardment and bomber crash on the Siegfried Line.',
     intro:
@@ -219,105 +420,8 @@ export const projects: Project[] = [
   },
 
   {
-    slug: 'airfield-map',
-    number: '03',
-    title: 'Airfield map',
-    tagline: 'Complete rebuild of the Airfield map.',
-    intro:
-      'I spearheaded a complete overhaul of the Airfield map, essentially rebuilding it from scratch. Recognizing that previous ' +
-      'minor adjustments had failed to improve player satisfaction, I took the initiative to design an entirely new map layout ' +
-      'while preserving the established African desert coast setting.',
-    meta: {
-      game: 'World of Tanks',
-      studio: 'Wargaming',
-      year: 2024, // TODO: confirm with author — update 1.28.1
-      role: 'Level Design',
-    },
-    hero: { type: 'image', src: '/assets/projects/airfield-map/hero.png' },
-    thumbnail: '/assets/projects/airfield-map/thumbnail.jpg',
-    sections: [
-      {
-        kind: 'logic',
-        label: 'Logic',
-        title: 'Logic behind',
-        body: 'test',
-        map: '/assets/projects/airfield-map/zone-overview.png',
-        media: ['/assets/projects/airfield-map/overview-01.png'],
-      },
-      {
-        kind: 'zone',
-        label: 'Zone 01',
-        title: 'The Cave',
-        body:
-          'The Cave is a dedicated engagement zone for heavy armor. Within its walls and under its natural roof, heavy, ' +
-          'slow-moving vehicles can fight in relative isolation, shielded from outside interference. To add gameplay variety, ' +
-          'I implemented a sub-sector on top of the cave, where positions are spaced further apart, resulting in a more methodical ' +
-          'and measured pace.',
-        media: [
-          '/assets/projects/airfield-map/cave-01.png',
-          '/assets/projects/airfield-map/cave-02.png',
-        ],
-      },
-      {
-        kind: 'zone',
-        label: 'Zone 02',
-        title: 'The Dunes',
-        body:
-          'This type of natural terrain is rarely utilized in our game. However, dunes are exceptionally effective for facilitating ' +
-          'gameplay along the entire length of the ridge. They provide players with a sense of control and significantly diversify the ' +
-          "experience, as a viable firing position can be found anywhere along the dune's crest.",
-        media: [
-          '/assets/projects/airfield-map/dunes-01.png',
-          '/assets/projects/airfield-map/dunes-02.png',
-        ],
-      },
-      {
-        kind: 'zone',
-        label: 'Zone 03',
-        title: 'The Coastline',
-        body:
-          'Since the dunes are designed for long-range positional play, I needed to provide a high-mobility sub-sector where fast ' +
-          'vehicles could close the gap for more aggressive engagements. The coastline serves this exact purpose, offering a dedicated ' +
-          'flank for rapid maneuvers and close-quarters pressure.',
-        media: [
-          '/assets/projects/airfield-map/coastline-01.png',
-          '/assets/projects/airfield-map/coastline-02.png',
-        ],
-      },
-      {
-        kind: 'zone',
-        label: 'Zone 04',
-        title: 'The Central Oasis & Bush Line',
-        body:
-          'The Central Oasis serves as the primary link between the dunes. Here, Light Tanks and scouts can maximize their view range ' +
-          'to effectively spot enemy forces positioned across the ridgelines. The Bush Line is a situational tactical element that allows ' +
-          "players to stealthily infiltrate the enemy's rear under specific conditions. However, it's a high-risk maneuver: if you are " +
-          'detected, there is virtually no cover to escape.',
-        media: [
-          '/assets/projects/airfield-map/oasis-01.png',
-          '/assets/projects/airfield-map/oasis-02.png',
-        ],
-      },
-      {
-        kind: 'zone',
-        label: 'Zone 05',
-        title: 'Holding Positions',
-        body:
-          'No map is complete without these. The presence of second-line defensive positions with oversight of key map areas allows for a ' +
-          "controlled deceleration of the battle's pace. This creates opportunities for a comeback, enabling a team to flip the momentum in " +
-          'their favor even if they were initially at a disadvantage.',
-        media: [
-          '/assets/projects/airfield-map/holding-01.png',
-          '/assets/projects/airfield-map/holding-02.png',
-        ],
-      },
-    ],
-    closingVideo: 'https://www.youtube.com/embed/kOj0usIhBp0',
-  },
-
-  {
     slug: 'paris-bridge-bombardment',
-    number: '04',
+    number: '05',
     title: 'Bridge bombardment on Paris',
     tagline: 'V-2 rocket bridge bombardment scenario.',
     intro:
@@ -377,7 +481,7 @@ export const projects: Project[] = [
 
   {
     slug: 'cliff-lighthouse-crash',
-    number: '05',
+    number: '06',
     title: 'Lighthouse crash scenario',
     tagline: 'Random Events on Cliff — the lighthouse falls.',
     intro:
@@ -445,7 +549,7 @@ export const projects: Project[] = [
 
   {
     slug: 'highway-train-derailment',
-    number: '06',
+    number: '07',
     title: 'Highway scenario',
     tagline: 'Train derailment onto the city streets.',
     intro:
@@ -503,109 +607,5 @@ export const projects: Project[] = [
       },
     ],
     closingVideo: 'https://www.youtube.com/embed/ohfrzAV_ycM',
-  },
-
-  {
-    slug: 'brawl-school-neon-dash',
-    number: '07',
-    title: 'Brawl school',
-    tagline: 'Neon Dash — a battle racing mode with moving obstacles.',
-    intro:
-      'Neon Dash is a limited-time battle racing mode with moving obstacles. It was a complete genre shift for World ' +
-      'of Tanks, turning a tactical vehicle shooter into an arcade racer.',
-    meta: {
-      game: 'World of Tanks',
-      studio: 'Wargaming',
-      year: 2026, // TODO: confirm with author
-      role: 'Level Design',
-    },
-    hero: { type: 'image', src: '/assets/projects/brawl-school-neon-dash/hero.png' },
-    thumbnail: '/assets/projects/brawl-school-neon-dash/thumbnail.jpg',
-    sections: [
-      {
-        kind: 'zone',
-        label: 'Focus',
-        title: 'My work on this map',
-        body:
-          'Track Layout — designed a racetrack that adapts tank physics for fast-paced gameplay.\n' +
-          "Dynamic Obstacles — integrated moving platforms and hazards to test players' timing and driving skills.\n" +
-          'PvP Interaction — structured the arena to encourage constant combat, where players use impulse charges ' +
-          'to push each other off the track.',
-        map: '/assets/projects/brawl-school-neon-dash/overview-map.jpg',
-      },
-      {
-        kind: 'zone',
-        label: 'Scheme',
-        title: 'Scheme',
-        body:
-          'My goal was to create a moderately challenging track focused on high player-to-player interaction and ' +
-          'map engagement.\n\n' +
-          'My design choices:\n' +
-          'High-Interaction Layout — narrowed lanes, reduced safe zones, and added more pits to encourage knocking ' +
-          'opponents off the track.\n' +
-          'Linear Navigation — the track is completely linear. Players see the finish line from the start, ' +
-          'preventing navigation confusion during chaotic combat.\n' +
-          'Structure — the layout is divided into 3 distinct progression zones based on this pacing logic.\n' +
-          'Pacing — alternated intense obstacle sections with brief breathing rooms. Added longer, low-risk ' +
-          'alternative routes to balance overall difficulty.',
-        map: '/assets/projects/brawl-school-neon-dash/scheme.jpg',
-      },
-      {
-        kind: 'zone',
-        label: 'Stage 1',
-        title: 'Stage 1',
-        body:
-          'Immediately after the start, players slide down onto a hazardous platform filled with pits. This section ' +
-          'serves as a low-penalty combat zone where players can jump over hazards using trampolines and ram each ' +
-          'other without frustration, thanks to a nearby respawn point.\n\n' +
-          'For a high-risk trade-off, players can attempt to bypass the entire platform by using large trampolines; ' +
-          'failing the jump results in an immediate pitfall, but success grants them a significant shortcut.',
-        media: ['/assets/projects/brawl-school-neon-dash/stage1-01.png'],
-      },
-      {
-        kind: 'zone',
-        label: 'Stage 2',
-        title: 'Stage 2',
-        body:
-          'Phase 2 features a split pathway where the right track is positioned lower than the upper-left track. ' +
-          'Since this is near the start of the race, the obstacles here remain relatively simple.\n\n' +
-          'However, due to its lower elevation, the right path serves as the most natural, intuitive continuation ' +
-          'from Stage 1, which data showed most players naturally preferred. To balance this high traffic, the ' +
-          'obstacles on the right track are intentionally more challenging, featuring lasers, whereas the upper-left ' +
-          'track offers simpler moving blocks.\n\n' +
-          'This stage concludes with the first major obstacle: the Carousel. I intentionally made its rotation ' +
-          'pattern unpredictable to slow down the leading players and pack the field back together. To prevent ' +
-          'unfair frustration, a safe zone is placed directly before this hazard, allowing players to briefly wait ' +
-          'and time the carousel approach in relative safety.',
-        media: [
-          '/assets/projects/brawl-school-neon-dash/stage2-01.png',
-          '/assets/projects/brawl-school-neon-dash/stage2-02.png',
-          '/assets/projects/brawl-school-neon-dash/stage2-03.png',
-        ],
-      },
-      {
-        kind: 'zone',
-        label: 'Stage 3',
-        title: 'Stage 3',
-        body:
-          'Stage 3 is the most challenging section of the map, featuring narrow tracks, heavily holey platforms, and ' +
-          'long-distance jumps. It serves as the primary catch-up mechanic where trailing players can overtake the ' +
-          'leaders.\n\n' +
-          'At the start of this section, a split layout offers an alternate bypass route for those wanting to avoid ' +
-          'the jumps, though this route still maintains a baseline level of hazard to ensure it remains a balanced ' +
-          'choice.\n\n' +
-          'The track concludes with a high-intensity hazard codenamed the "Washing Machine," featuring a dense ' +
-          'cluster of platforms moving in opposite directions over open pits. This final bottleneck forces intense ' +
-          'player interaction, where opponents can either cooperate to secure the finish or sabotage each other. ' +
-          'A well-timed impulse shot here can knock a rival off the platform, triggering a high-penalty respawn all ' +
-          'the way back to the start of Stage 3.',
-        media: [
-          '/assets/projects/brawl-school-neon-dash/stage3-01.png',
-          '/assets/projects/brawl-school-neon-dash/stage3-02.png',
-          '/assets/projects/brawl-school-neon-dash/stage3-03.png',
-        ],
-      },
-    ],
-    closingVideo: 'https://www.youtube.com/embed/oA9sebGUzwY',
   },
 ];
