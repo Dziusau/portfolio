@@ -132,7 +132,13 @@ export const projects: Project[] = [
         kind: 'logic',
         label: 'Logic',
         title: 'Logic behind',
-        body: 'test',
+        body:
+          'The primary goal of the rework was to reduce the dominance of bush-based sniper vehicles on the map. ' +
+          'I needed to improve the gameplay options for heavy and medium tanks so they could play more actively — ' +
+          'repositioning and trading fire — while still maintaining the balance of every class, snipers and light ' +
+          'tanks included. The map also had to retain a sense of flank and lane control to avoid rapid breakthroughs.\n\n' +
+          'So I created two primary directions: an enclosed engagement zone in the Cave, and an open yet safe zone ' +
+          'in the Dunes for long-range fire.',
         map: '/assets/projects/airfield-map/zone-overview.png',
         media: ['/assets/projects/airfield-map/overview-01.png'],
       },
