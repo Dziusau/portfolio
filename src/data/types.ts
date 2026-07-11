@@ -7,7 +7,7 @@ export type ProjectSection = {
   body: string;
   map?: string;
   media?: string[];
-  beforeAfter?: { before: string; after: string };
+  beforeAfter?: { before: string; after: string }[];
 };
 
 export type ProjectMeta = {

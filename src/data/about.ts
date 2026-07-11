@@ -22,7 +22,7 @@ export const about: About = {
   cvUrl: '/aleksandr-dyusov-cv.pdf',
   contacts: {
     email: 'aleksandrdyusov@gmail.com',
-    linkedin: 'https://www.linkedin.com/in/', // TODO: confirm with author
+    linkedin: 'https://www.linkedin.com/in/alexdyusov/',
     artstation: null,
     vimeo: null,
   },

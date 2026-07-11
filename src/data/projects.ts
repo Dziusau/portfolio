@@ -7,7 +7,7 @@ export const projects: Project[] = [
     title: 'Himmelsdorf scenarios',
     tagline: 'Random Events on Himmelsdorf — zeppelin crash and train crash.',
     intro:
-      'As part of the Random Events feature, I introduce a series of scenarios that dynamically alter the geometry ' +
+      'As part of the Random Events feature, I implemented a series of scenarios that dynamically alter the geometry ' +
       'of existing World of Tanks maps. For the Himmelsdorf map, I integrated two specific events: a zeppelin crash ' +
       'and a train bombardment.',
     meta: {
@@ -57,6 +57,12 @@ export const projects: Project[] = [
           'along the frontline, blocking certain sightlines (long-range shots) while opening up safe paths for closing ' +
           'the distance and maneuvering. Most importantly, I created a new traversal route allowing players to descend ' +
           'from the Castle into the city.',
+        beforeAfter: [
+          {
+            before: '/assets/projects/himmelsdorf-scenarios/zeppelin-before.png',
+            after: '/assets/projects/himmelsdorf-scenarios/zeppelin-after.png',
+          },
+        ],
       },
       {
         kind: 'scenario',
@@ -93,6 +99,12 @@ export const projects: Project[] = [
           "the wreckage to block long-range shot lines, I've created a safer environment in this sector. This enables more " +
           'aggressive movement along the rails and introduces new tactical positions behind the wagons and coal piles, ' +
           'significantly diversifying the gameplay in this lane.',
+        beforeAfter: [
+          {
+            before: '/assets/projects/himmelsdorf-scenarios/train-before.png',
+            after: '/assets/projects/himmelsdorf-scenarios/train-after.png',
+          },
+        ],
       },
     ],
     // TODO: paste actual YouTube embed URL from /portfolio/1
@@ -154,6 +166,12 @@ export const projects: Project[] = [
           'new positions from destroyed buildings, I established connectivity between all three lanes. Crucially, the ' +
           'frontline remained stable, and the overall combat pacing was preserved. These new positions and routes successfully ' +
           'diversified the gameplay experience on the map.',
+        beforeAfter: [
+          {
+            before: '/assets/projects/siegfried-line-scenarios/city-before.png',
+            after: '/assets/projects/siegfried-line-scenarios/city-after.png',
+          },
+        ],
       },
       {
         kind: 'scenario',
@@ -189,6 +207,12 @@ export const projects: Project[] = [
           'leaving players highly vulnerable during any attempt to close the distance. Consequently, the wreckage of the crashed ' +
           'aircraft effectively creates new cover and obstructs several long-range sightlines. This establishes fresh positions ' +
           'within the sector and allows for much safer movement and rotation.',
+        beforeAfter: [
+          {
+            before: '/assets/projects/siegfried-line-scenarios/bomber-before.png',
+            after: '/assets/projects/siegfried-line-scenarios/bomber-after.png',
+          },
+        ],
       },
     ],
     // TODO: paste actual YouTube embed URL from /portfolio/2
@@ -222,7 +246,11 @@ export const projects: Project[] = [
           'I implemented a sub-sector on top of the cave, where positions are spaced further apart, resulting in a more methodical ' +
           'and measured pace.',
         map: '/assets/projects/airfield-map/zone-overview.png',
-        media: ['/assets/projects/airfield-map/overview-01.png'],
+        media: [
+          '/assets/projects/airfield-map/overview-01.png',
+          '/assets/projects/airfield-map/cave-01.png',
+          '/assets/projects/airfield-map/cave-02.png',
+        ],
       },
       {
         kind: 'zone',
@@ -232,6 +260,10 @@ export const projects: Project[] = [
           'This type of natural terrain is rarely utilized in our game. However, dunes are exceptionally effective for facilitating ' +
           'gameplay along the entire length of the ridge. They provide players with a sense of control and significantly diversify the ' +
           "experience, as a viable firing position can be found anywhere along the dune's crest.",
+        media: [
+          '/assets/projects/airfield-map/dunes-01.png',
+          '/assets/projects/airfield-map/dunes-02.png',
+        ],
       },
       {
         kind: 'zone',
@@ -241,6 +273,10 @@ export const projects: Project[] = [
           'Since the dunes are designed for long-range positional play, I needed to provide a high-mobility sub-sector where fast ' +
           'vehicles could close the gap for more aggressive engagements. The coastline serves this exact purpose, offering a dedicated ' +
           'flank for rapid maneuvers and close-quarters pressure.',
+        media: [
+          '/assets/projects/airfield-map/coastline-01.png',
+          '/assets/projects/airfield-map/coastline-02.png',
+        ],
       },
       {
         kind: 'zone',
@@ -251,6 +287,10 @@ export const projects: Project[] = [
           'to effectively spot enemy forces positioned across the ridgelines. The Bush Line is a situational tactical element that allows ' +
           "players to stealthily infiltrate the enemy's rear under specific conditions. However, it's a high-risk maneuver: if you are " +
           'detected, there is virtually no cover to escape.',
+        media: [
+          '/assets/projects/airfield-map/oasis-01.png',
+          '/assets/projects/airfield-map/oasis-02.png',
+        ],
       },
       {
         kind: 'zone',
@@ -260,6 +300,10 @@ export const projects: Project[] = [
           'No map is complete without these. The presence of second-line defensive positions with oversight of key map areas allows for a ' +
           "controlled deceleration of the battle's pace. This creates opportunities for a comeback, enabling a team to flip the momentum in " +
           'their favor even if they were initially at a disadvantage.',
+        media: [
+          '/assets/projects/airfield-map/holding-01.png',
+          '/assets/projects/airfield-map/holding-02.png',
+        ],
       },
     ],
     // TODO: paste actual YouTube embed URL from /portfolio/3
@@ -308,6 +352,12 @@ export const projects: Project[] = [
           "Therefore, the primary goal for this scenario was to 'do no harm.' The objective was to complement the existing gameplay by " +
           'providing even more tactical opportunities. The destroyed bridge introduces new positions among the debris and opens up previously ' +
           'inaccessible routes to the upper roadway.',
+        beforeAfter: [
+          {
+            before: '/assets/projects/paris-bridge-bombardment/bridge-before.png',
+            after: '/assets/projects/paris-bridge-bombardment/bridge-after.png',
+          },
+        ],
       },
     ],
     // TODO: paste actual YouTube embed URL from /portfolio/4
@@ -336,9 +386,7 @@ export const projects: Project[] = [
         kind: 'scenario',
         label: 'Scenario',
         title: 'Lighthouse crash',
-        body:
-          'The bomber clips the lighthouse mid-flight; a section of the structure collapses and the tower tilts and falls onto ' +
-          'the mountain slope below. The aircraft itself eventually crashes on the opposite side of the map.',
+        body: '',
         map: '/assets/projects/cliff-lighthouse-crash/lighthouse-map.png',
         media: [
           '/assets/projects/cliff-lighthouse-crash/lighthouse-01.png',
@@ -368,6 +416,16 @@ export const projects: Project[] = [
           "engage the enemy effectively. Consequently, the hill becomes accessible to almost any vehicle class mid-match. However, " +
           "since the event's timing and activation probability are randomized, this remains a situational opportunity rather than an " +
           "overpowered strategy, preserving the map's core gameplay.",
+        beforeAfter: [
+          {
+            before: '/assets/projects/cliff-lighthouse-crash/lighthouse-before-1.png',
+            after: '/assets/projects/cliff-lighthouse-crash/lighthouse-after-1.png',
+          },
+          {
+            before: '/assets/projects/cliff-lighthouse-crash/lighthouse-before-2.png',
+            after: '/assets/projects/cliff-lighthouse-crash/lighthouse-after-2.png',
+          },
+        ],
       },
     ],
     // TODO: paste actual YouTube embed URL from /portfolio/5
@@ -395,10 +453,7 @@ export const projects: Project[] = [
         kind: 'scenario',
         label: 'Scenario',
         title: 'Train derailment',
-        body:
-          'A train pursued by aircraft comes under fire; the bombardment destroys the tracks, causing the train to derail and crash ' +
-          'directly onto the city streets. The wreckage introduces fresh tactical cover and obstructs long-range sightlines, making ' +
-          'the urban combat more secure and engaging.',
+        body: '',
         map: '/assets/projects/highway-train-derailment/train-map.png',
         media: [
           '/assets/projects/highway-train-derailment/train-01.png',
@@ -427,8 +482,118 @@ export const projects: Project[] = [
           'through the urban area. The train wreckage fits this area perfectly. We established new positions at varying engagement ' +
           'distances, making the gameplay in this sector more intuitive and dynamic. The fallen wagons successfully blocked long-range ' +
           'sightlines, creating a much safer environment for heavy tanks to battle.',
+        beforeAfter: [
+          {
+            before: '/assets/projects/highway-train-derailment/train-before.png',
+            after: '/assets/projects/highway-train-derailment/train-after.png',
+          },
+        ],
       },
     ],
     // TODO: paste actual YouTube embed URL from /portfolio/6
+  },
+
+  {
+    slug: 'brawl-school-neon-dash',
+    number: '07',
+    title: 'Brawl school',
+    tagline: 'Neon Dash — a battle racing mode with moving obstacles.',
+    intro:
+      'Neon Dash is a limited-time battle racing mode with moving obstacles. It was a complete genre shift for World ' +
+      'of Tanks, turning a tactical vehicle shooter into an arcade racer.',
+    meta: {
+      game: 'World of Tanks',
+      studio: 'Wargaming',
+      year: 2026, // TODO: confirm with author
+      role: 'Level Design',
+    },
+    hero: { type: 'image', src: '/assets/projects/brawl-school-neon-dash/hero.png' },
+    thumbnail: '/assets/projects/brawl-school-neon-dash/thumbnail.jpg',
+    sections: [
+      {
+        kind: 'zone',
+        label: 'Focus',
+        title: 'My work on this map',
+        body:
+          'Track Layout — designed a racetrack that adapts tank physics for fast-paced gameplay.\n' +
+          "Dynamic Obstacles — integrated moving platforms and hazards to test players' timing and driving skills.\n" +
+          'PvP Interaction — structured the arena to encourage constant combat, where players use impulse charges ' +
+          'to push each other off the track.',
+        map: '/assets/projects/brawl-school-neon-dash/overview-map.jpg',
+      },
+      {
+        kind: 'zone',
+        label: 'Scheme',
+        title: 'Scheme',
+        body:
+          'My goal was to create a moderately challenging track focused on high player-to-player interaction and ' +
+          'map engagement.\n\n' +
+          'My design choices:\n' +
+          'High-Interaction Layout — narrowed lanes, reduced safe zones, and added more pits to encourage knocking ' +
+          'opponents off the track.\n' +
+          'Linear Navigation — the track is completely linear. Players see the finish line from the start, ' +
+          'preventing navigation confusion during chaotic combat.\n' +
+          'Structure — the layout is divided into 3 distinct progression zones based on this pacing logic.\n' +
+          'Pacing — alternated intense obstacle sections with brief breathing rooms. Added longer, low-risk ' +
+          'alternative routes to balance overall difficulty.',
+        map: '/assets/projects/brawl-school-neon-dash/scheme.jpg',
+      },
+      {
+        kind: 'zone',
+        label: 'Stage 1',
+        title: 'Stage 1',
+        body:
+          'Immediately after the start, players slide down onto a hazardous platform filled with pits. This section ' +
+          'serves as a low-penalty combat zone where players can jump over hazards using trampolines and ram each ' +
+          'other without frustration, thanks to a nearby respawn point.\n\n' +
+          'For a high-risk trade-off, players can attempt to bypass the entire platform by using large trampolines; ' +
+          'failing the jump results in an immediate pitfall, but success grants them a significant shortcut.',
+        media: ['/assets/projects/brawl-school-neon-dash/stage1-01.png'],
+      },
+      {
+        kind: 'zone',
+        label: 'Stage 2',
+        title: 'Stage 2',
+        body:
+          'Phase 2 features a split pathway where the right track is positioned lower than the upper-left track. ' +
+          'Since this is near the start of the race, the obstacles here remain relatively simple.\n\n' +
+          'However, due to its lower elevation, the right path serves as the most natural, intuitive continuation ' +
+          'from Stage 1, which data showed most players naturally preferred. To balance this high traffic, the ' +
+          'obstacles on the right track are intentionally more challenging, featuring lasers, whereas the upper-left ' +
+          'track offers simpler moving blocks.\n\n' +
+          'This stage concludes with the first major obstacle: the Carousel. I intentionally made its rotation ' +
+          'pattern unpredictable to slow down the leading players and pack the field back together. To prevent ' +
+          'unfair frustration, a safe zone is placed directly before this hazard, allowing players to briefly wait ' +
+          'and time the carousel approach in relative safety.',
+        media: [
+          '/assets/projects/brawl-school-neon-dash/stage2-01.png',
+          '/assets/projects/brawl-school-neon-dash/stage2-02.png',
+          '/assets/projects/brawl-school-neon-dash/stage2-03.png',
+        ],
+      },
+      {
+        kind: 'zone',
+        label: 'Stage 3',
+        title: 'Stage 3',
+        body:
+          'Stage 3 is the most challenging section of the map, featuring narrow tracks, heavily holey platforms, and ' +
+          'long-distance jumps. It serves as the primary catch-up mechanic where trailing players can overtake the ' +
+          'leaders.\n\n' +
+          'At the start of this section, a split layout offers an alternate bypass route for those wanting to avoid ' +
+          'the jumps, though this route still maintains a baseline level of hazard to ensure it remains a balanced ' +
+          'choice.\n\n' +
+          'The track concludes with a high-intensity hazard codenamed the "Washing Machine," featuring a dense ' +
+          'cluster of platforms moving in opposite directions over open pits. This final bottleneck forces intense ' +
+          'player interaction, where opponents can either cooperate to secure the finish or sabotage each other. ' +
+          'A well-timed impulse shot here can knock a rival off the platform, triggering a high-penalty respawn all ' +
+          'the way back to the start of Stage 3.',
+        media: [
+          '/assets/projects/brawl-school-neon-dash/stage3-01.png',
+          '/assets/projects/brawl-school-neon-dash/stage3-02.png',
+          '/assets/projects/brawl-school-neon-dash/stage3-03.png',
+        ],
+      },
+    ],
+    closingVideo: 'https://www.youtube.com/embed/oA9sebGUzwY',
   },
 ];

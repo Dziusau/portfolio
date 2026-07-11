@@ -13,7 +13,9 @@ export default function ProjectSection({ section }: Props) {
 
       <div>
         <h2 className="text-2xl md:text-3xl font-semibold text-white mb-4">{title}</h2>
-        <p className="text-base leading-relaxed text-muted max-w-3xl whitespace-pre-line">{body}</p>
+        {body && (
+          <p className="text-base leading-relaxed text-muted max-w-3xl whitespace-pre-line">{body}</p>
+        )}
 
         {map && (
           <figure className="mt-6">
@@ -45,7 +47,8 @@ export default function ProjectSection({ section }: Props) {
           </div>
         )}
 
-        {beforeAfter && <BeforeAfter before={beforeAfter.before} after={beforeAfter.after} />}
+        {beforeAfter &&
+          beforeAfter.map((ba, i) => <BeforeAfter key={i} before={ba.before} after={ba.after} />)}
       </div>
     </section>
   );
