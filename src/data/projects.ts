@@ -31,11 +31,6 @@ export const projects: Project[] = [
           'while remaining technically optimized and stable. Most importantly, it provides meaningful improvements to the ' +
           'overall gameplay experience during battles on this map.',
         map: '/assets/projects/himmelsdorf-scenarios/zeppelin-map.png',
-        media: [
-          '/assets/projects/himmelsdorf-scenarios/zeppelin-01.png',
-          '/assets/projects/himmelsdorf-scenarios/zeppelin-02.png',
-          '/assets/projects/himmelsdorf-scenarios/zeppelin-03.png',
-        ],
       },
       {
         kind: 'iteration',
@@ -45,6 +40,11 @@ export const projects: Project[] = [
           'The scenario underwent a full development cycle, starting from a basic blockout using legacy models and ' +
           'concrete blocks to the final placement of high-quality assets. Each stage was refined through multiple ' +
           'iterations and internal playtests to ensure optimal flow and balance.',
+        media: [
+          '/assets/projects/himmelsdorf-scenarios/zeppelin-01.png',
+          '/assets/projects/himmelsdorf-scenarios/zeppelin-02.png',
+          '/assets/projects/himmelsdorf-scenarios/zeppelin-03.png',
+        ],
       },
       {
         kind: 'logic',
@@ -73,12 +73,6 @@ export const projects: Project[] = [
           'the railway is ambushed and subjected to an aerial bombardment. The bombs destroy the tracks, causing the train ' +
           'to derail and overturn along the entire length of the map rails.',
         map: '/assets/projects/himmelsdorf-scenarios/train-map.png',
-        media: [
-          '/assets/projects/himmelsdorf-scenarios/train-01.png',
-          '/assets/projects/himmelsdorf-scenarios/train-02.png',
-          '/assets/projects/himmelsdorf-scenarios/train-03.png',
-          '/assets/projects/himmelsdorf-scenarios/train-04.png',
-        ],
       },
       {
         kind: 'iteration',
@@ -87,6 +81,12 @@ export const projects: Project[] = [
         body:
           'By experimenting with various animations, train starting points, travel directions, and the final layout of ' +
           'the derailed cars across numerous playtests, I was able to determine the optimal combination of these elements.',
+        media: [
+          '/assets/projects/himmelsdorf-scenarios/train-01.png',
+          '/assets/projects/himmelsdorf-scenarios/train-02.png',
+          '/assets/projects/himmelsdorf-scenarios/train-03.png',
+          '/assets/projects/himmelsdorf-scenarios/train-04.png',
+        ],
       },
       {
         kind: 'logic',
@@ -139,13 +139,6 @@ export const projects: Project[] = [
           'to pinpoint the optimal configuration of the new geometry. Additionally, I took the initiative to train a new team ' +
           'of animators and VFX artists on the scenario development pipeline.',
         map: '/assets/projects/siegfried-line-scenarios/city-map.png',
-        media: [
-          '/assets/projects/siegfried-line-scenarios/city-01.png',
-          '/assets/projects/siegfried-line-scenarios/city-02.png',
-          '/assets/projects/siegfried-line-scenarios/city-03.png',
-          '/assets/projects/siegfried-line-scenarios/city-04.png',
-          '/assets/projects/siegfried-line-scenarios/city-05.png',
-        ],
       },
       {
         kind: 'iteration',
@@ -155,6 +148,13 @@ export const projects: Project[] = [
           'During the conceptual and testing phases, I often work with existing project resources. I frequently source ' +
           'available assets, effects, and animations to build scenarios. However, it is also common for me to recreate the ' +
           'desired geometry from scratch using basic primitives to validate the layout.',
+        media: [
+          '/assets/projects/siegfried-line-scenarios/city-01.png',
+          '/assets/projects/siegfried-line-scenarios/city-02.png',
+          '/assets/projects/siegfried-line-scenarios/city-03.png',
+          '/assets/projects/siegfried-line-scenarios/city-04.png',
+          '/assets/projects/siegfried-line-scenarios/city-05.png',
+        ],
       },
       {
         kind: 'logic',
@@ -183,11 +183,6 @@ export const projects: Project[] = [
           'seamlessly into the local gameplay. It creates situational cover and blocks long-range sightlines, facilitating safer ' +
           'movement through the area.',
         map: '/assets/projects/siegfried-line-scenarios/bomber-map.png',
-        media: [
-          '/assets/projects/siegfried-line-scenarios/bomber-01.png',
-          '/assets/projects/siegfried-line-scenarios/bomber-02.png',
-          '/assets/projects/siegfried-line-scenarios/bomber-03.png',
-        ],
       },
       {
         kind: 'iteration',
@@ -197,6 +192,11 @@ export const projects: Project[] = [
           'Before transitioning to the production phase and kicking off the tasks for 3D, VFX, animation, and level art teams, ' +
           'I must finalize the level geometry. To ensure full immersion during internal playtests, I am always tasked with ' +
           'creating a complete scenario draft. This means that developing the Level Sequence draft is also an integral part of my workflow.',
+        media: [
+          '/assets/projects/siegfried-line-scenarios/bomber-01.png',
+          '/assets/projects/siegfried-line-scenarios/bomber-02.png',
+          '/assets/projects/siegfried-line-scenarios/bomber-03.png',
+        ],
       },
       {
         kind: 'logic',
@@ -388,11 +388,6 @@ export const projects: Project[] = [
         title: 'Lighthouse crash',
         body: '',
         map: '/assets/projects/cliff-lighthouse-crash/lighthouse-map.png',
-        media: [
-          '/assets/projects/cliff-lighthouse-crash/lighthouse-01.png',
-          '/assets/projects/cliff-lighthouse-crash/lighthouse-02.png',
-          '/assets/projects/cliff-lighthouse-crash/lighthouse-03.png',
-        ],
       },
       {
         kind: 'iteration',
@@ -402,6 +397,11 @@ export const projects: Project[] = [
           "To maximize the gameplay impact, I needed the lighthouse debris to land specifically on the mountain slope. Balancing " +
           "this with the animation team's requirement for realistic destruction physics, I slightly shifted the lighthouse's " +
           'original position toward the edge of the cliff.',
+        media: [
+          '/assets/projects/cliff-lighthouse-crash/lighthouse-01.png',
+          '/assets/projects/cliff-lighthouse-crash/lighthouse-02.png',
+          '/assets/projects/cliff-lighthouse-crash/lighthouse-03.png',
+        ],
       },
       {
         kind: 'logic',
@@ -455,11 +455,6 @@ export const projects: Project[] = [
         title: 'Train derailment',
         body: '',
         map: '/assets/projects/highway-train-derailment/train-map.png',
-        media: [
-          '/assets/projects/highway-train-derailment/train-01.png',
-          '/assets/projects/highway-train-derailment/train-02.png',
-          '/assets/projects/highway-train-derailment/train-03.png',
-        ],
       },
       {
         kind: 'iteration',
@@ -470,6 +465,11 @@ export const projects: Project[] = [
           'derailment is a massive technical challenge. Animating each car, analyzing the server-side performance impact, and preventing ' +
           'potential network desyncs — all while assembling and testing the scenario within complex prefab structures — represents only ' +
           'a fraction of the work required to bring such an event to life.',
+        media: [
+          '/assets/projects/highway-train-derailment/train-01.png',
+          '/assets/projects/highway-train-derailment/train-02.png',
+          '/assets/projects/highway-train-derailment/train-03.png',
+        ],
       },
       {
         kind: 'logic',
