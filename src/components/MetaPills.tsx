@@ -3,7 +3,7 @@ import type { ProjectMeta } from '../data/types';
 type Props = { meta: ProjectMeta };
 
 export default function MetaPills({ meta }: Props) {
-  const pills = [meta.game, `${meta.studio} · ${meta.year}`, meta.role];
+  const pills = [meta.game, meta.studio, meta.role];
   return (
     <div className="flex flex-wrap gap-2">
       {pills.map((label) => (

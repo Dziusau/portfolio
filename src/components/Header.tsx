@@ -8,9 +8,9 @@ export default function Header() {
         <Link
           to="/"
           aria-label="Aleksandr Dyusov — home"
-          className="inline-flex items-center justify-center w-7 h-7 border border-white/30 text-[11px] font-bold tracking-widest text-white hover:border-white"
+          className="inline-flex items-center justify-center w-7 h-7 border border-white/30 text-[11px] font-bold tracking-tight text-white hover:border-white"
         >
-          AD
+          A
         </Link>
 
         <nav className="flex items-center gap-2 text-xs">
