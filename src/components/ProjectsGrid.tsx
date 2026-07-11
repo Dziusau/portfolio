@@ -3,7 +3,7 @@ import ProjectTile from './ProjectTile';
 
 export default function ProjectsGrid() {
   return (
-    <section id="projects" className="max-w-6xl mx-auto px-6 py-12 md:py-16">
+    <section id="projects" className="max-w-6xl mx-auto px-6 pb-12 md:pb-16">
       <div className="font-mono text-[10px] uppercase tracking-wider2 text-quiet mb-6">
         → Selected projects
       </div>
