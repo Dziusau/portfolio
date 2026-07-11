@@ -328,6 +328,13 @@ export const projects: Project[] = [
     thumbnail: '/assets/projects/paris-bridge-bombardment/thumbnail.jpg',
     sections: [
       {
+        kind: 'scenario',
+        label: 'Scenario',
+        title: 'Bridge bombardment',
+        body: '',
+        map: '/assets/projects/paris-bridge-bombardment/bridge-map.png',
+      },
+      {
         kind: 'iteration',
         label: 'Stages',
         title: 'Bridge through its stages',
@@ -335,7 +342,6 @@ export const projects: Project[] = [
           'This was a textbook scenario where the team followed a well-established, time-tested process. As with previous events, I ' +
           'developed the geometry starting from the graybox stage for internal testing, and subsequently oversaw the 3D, level art, and ' +
           'animation teams to ensure a flawless release with no technical or design issues.',
-        map: '/assets/projects/paris-bridge-bombardment/bridge-map.png',
         media: [
           '/assets/projects/paris-bridge-bombardment/bridge-01.png',
           '/assets/projects/paris-bridge-bombardment/bridge-02.png',
